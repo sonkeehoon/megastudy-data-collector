@@ -1,7 +1,5 @@
 # Megastudy Data Collector
 
-![Megastudy Logo](https://upload.wikimedia.org/wikipedia/ko/c/c7/Megastudy_Logo.png)
-
 Megastudy의 **수능·모의고사 역대 정답률과 난이도**를 크롤링하여 수집해주는 도구입니다.
 
 ---
