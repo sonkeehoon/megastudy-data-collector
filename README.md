@@ -32,7 +32,7 @@ Megastudy 웹사이트로부터 **고3 시험** 기준 `2016년 ~ 현재`까지�
 ## 📁 파일 구조
 ```
 megastudy-data-collector/
-├─ megastudy_score_rate_crawler.py  # 크롤러 메인 파일
+├─ **megastudy_score_rate_crawler.py**  # 크롤러 메인 파일
 ├─ megastudy_utils.py               # 유틸리티 함수 모음
 ├─ README.md                        # 프로젝트 문서
 ├─ CHANGELOG.md                     # 변경사항
