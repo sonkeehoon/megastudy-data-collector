@@ -32,10 +32,11 @@ Megastudy 웹사이트로부터 **고3 시험** 기준 `2016년 ~ 현재`까지�
 ## 📁 파일 구조
 ```
 megastudy-data-collector/
-├─ **crawler.py**  # 크롤러 메인 파일
-├─ utils.py                   # 유틸리티 함수 모음
-├─ README.md                            # 프로젝트 문서
-├─ CHANGELOG.md                         # 변경사항
+├─ **crawler.py**        # 크롤러 메인 파일
+├─ utils.py              # 유틸리티 함수 모음
+├─ README.md             # 프로젝트 문서
+├─ CHANGELOG.md          # 변경사항
+├─ 수학시험_데이터.csv    # 크롤링 된 결과 데이터
 ```
 
 ## 🚀 설치 및 실행 방법
