@@ -13,6 +13,7 @@
 - pandas
 
 '''
+version = '0.0.2'
 
 from utils import *
 from selenium import webdriver

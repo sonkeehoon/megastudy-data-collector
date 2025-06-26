@@ -8,5 +8,7 @@
 
 - Added a new `수학시험_데이터.csv` file
 
+- Add `version` variable to `crawler.py`
+
 ## [0.0.1] - 2025-06-23
 ### First Commit
