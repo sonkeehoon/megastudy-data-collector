@@ -1,15 +1,16 @@
 '''
 
-## megastudy_utils.py
+## utils.py
 
-#### `megastudy_score_rate_crawler.py`를 보조하는 유틸리티 모듈입니다.
+#### `crawler.py`를 보조하는 유틸리티 모듈입니다.
 
 - `save_to_csv`: 데이터를 CSV 파일로 저장
 - `extract_table_data`: 크롬 드라이버로 메가스터디 페이지의 표 데이터를 추출
 
 사용 예:
 
-`from megastudy_utils import save_to_csv, extract_table_data`
+`from utils import *`
+`from utils import save_to_csv, extract_table_data`
 
 '''
 import pandas as pd

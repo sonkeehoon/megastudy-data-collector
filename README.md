@@ -23,7 +23,7 @@ Megastudy 웹사이트로부터 **고3 시험** 기준 `2016년 ~ 현재`까지�
 ---
 
 ## 🛠️ 사용된 라이브러리
-- `megastudy_utils` (사용자 정의 유틸 모듈)
+- `utils` (사용자 정의 유틸 모듈)
 - `selenium` (`webdriver`, `By`, `Options`)
 - `pandas`
 
@@ -32,8 +32,8 @@ Megastudy 웹사이트로부터 **고3 시험** 기준 `2016년 ~ 현재`까지�
 ## 📁 파일 구조
 ```
 megastudy-data-collector/
-├─ **megastudy_score_rate_crawler.py**  # 크롤러 메인 파일
-├─ megastudy_utils.py                   # 유틸리티 함수 모음
+├─ **crawler.py**  # 크롤러 메인 파일
+├─ utils.py                   # 유틸리티 함수 모음
 ├─ README.md                            # 프로젝트 문서
 ├─ CHANGELOG.md                         # 변경사항
 ```
@@ -53,5 +53,5 @@ pip install selenium pandas
 
 ### 3️⃣ 크롤러 실행
 ```bash
-python megastudy_score_rate_crawler.py
+python crawler.py
 ```

@@ -8,13 +8,13 @@
 문제번호, 정답, 난이도, 배점, 정답률, 선지별 선택비율 등을 csv파일로 저장해줍니다
 
 [사용한 라이브러리]
-- megastudy_utils (사용자 정의 유틸리티)
+- utils (사용자 정의 유틸리티)
 - selenium (webdriver, By, Options)
 - pandas
 
 '''
 
-from megastudy_utils import *
+from utils import *
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
