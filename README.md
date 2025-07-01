@@ -22,9 +22,12 @@ Megastudy 웹사이트로부터 **고3 시험** 기준 `2016년 ~ 현재`까지�
 
 ---
 
-## 🛠️ 사용된 라이브러리
-- `utils` (사용자 정의 유틸 모듈)
-- `selenium` (`webdriver`, `By`, `Options`)
+## 🛠️ 개발 환경
+- `Python 3.9.13`
+- `OS: Windows`
+## 📦 사용된 라이브러리
+- `utils` (사용자 정의 유틸리티 모듈)
+- `selenium` (`webdriver`, `By`, `Options` 등)
 - `pandas`
 
 ---
@@ -56,3 +59,5 @@ pip install selenium pandas
 ```bash
 python crawler.py
 ```
+
+> 본 프로젝트는 Python 3.9.13 환경에서 개발되었으며, 웹 크롤링 및 데이터 처리 작업에 사용됩니다.
